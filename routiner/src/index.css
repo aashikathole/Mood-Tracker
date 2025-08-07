@@ -1,0 +1,144 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.handwritten {
+  font-family: 'Caveat', cursive;
+}
+
+/*daily plannar*/
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f1 100%);
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c7d2fe;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a5b4fc;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Input placeholder styling */
+::placeholder {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2rem;
+}
+
+/* Custom focus styles */
+input:focus, select:focus, button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(199, 210, 254, 0.5);
+}
+
+/* Gratitude Journal Styles */
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f1 100%);
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #cfbaf0;
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #a3c4f3;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Input placeholder styling */
+::placeholder {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2rem;
+  color: #9ca3af;
+}
+
+/* Custom focus styles */
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(207, 186, 240, 0.5);
+}
+
+/* Journal entry animations */
+.journal-section {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.journal-section:hover {
+  transform: translateY(-2px);
+}
+
+/* Form elements styling */
+textarea,
+input[type="text"],
+input[type="date"],
+select {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px); /* Safari support */
+}
+
+/* Additional Recommendations (optional) */
+textarea, input[type="text"], input[type="date"], select {
+  border: 1px solid #d1d5db; /* Light gray border */
+  border-radius: 0.375rem; /* Rounded corners */
+  padding: 0.5rem; /* Padding for comfort */
+  width: 100%; /* Full width */
+}
+
+button {
+  background-color: #cfbaf0; /* Button background */
+  color: white; /* Button text color */
+  border: none; /* No border */
+  border-radius: 0.375rem; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+}
+
+button:hover {
+  background-color: #a3c4f3; /* Button hover effect */
+}
